@@ -1,0 +1,48 @@
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+.container{
+    @apply  h-2/4 ml-auto mr-auto mt-16;
+}
+.member_label{
+    @apply w-full;
+}
+.task_control{
+
+}
+.btn.btn{
+    @apply mr-5;
+    background-color:#ffd803;
+    color:black;
+    border: 3px solid transparent;
+}
+.btn:hover{
+   
+    @apply opacity-70;
+    border:3px solid #0362fc;
+}
+.back_btn{
+    @apply mb-5;
+    
+}
+.control_btn{
+    @apply flex justify-between ;
+    
+}
+.member_table{
+    @apply  border-blue-900	 border-2 mr-auto ml-auto mt-8 w-2/3;
+}
+.border_gray{
+    @apply border-blue-900	 border-2;
+}
+th{
+    @apply border_gray p-3;
+}
+td,tr{
+    @apply border_gray p-3  ml-auto mr-auto text-center;
+}
+
+.ava{
+    @apply block 
+}

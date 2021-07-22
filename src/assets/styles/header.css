@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav_bar{
+   @apply flex justify-between bg-blue-200;
+   height:46px;
+}
+.left_menu{
+    @apply flex justify-between;
+}
+.logo{
+    @apply block w-12;
+}
+.logo_img{
+    @apply block w-full h-full object-contain;
+}
+.right_menu{
+    @apply bg-blue-200;
+    height:46px;
+}
+.nav_icon{
+    @apply text-6xl;
+    color:#ffd803 !important;
+    font-weight:800 !important;
+    font-size:20px !important;
+}
+.nav_item {
+    background-color: #bfdbfe !important; /*Overriden property*/
+  }
+.nav_item:hover a{
+    opacity:0.7 !important;
+}
+.nav_item:active{
+    backgroud-color: #ffd803 !important; 
+    color : #272343 !important;
+}
